@@ -1,0 +1,123 @@
+
+.main
+{
+    width:75%;
+}
+.rp-tabs,.tabcontent
+{
+    margin-bottom: 40px;
+    width:100%;
+    display:inline-block;
+
+}
+
+
+
+.tablink
+{
+    display: inline-block;
+    min-width: 50px;
+    min-height: 30px;
+}
+
+.tabbutton
+{
+
+   /* min-width:50px;
+    min-height:30px;
+    padding:20px 40px;
+    background:lightgreen;
+    color:black;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:0px;
+    display: inline-block;
+    box-sizing:border-box;
+    border:2px solid black;
+    font-size: 15px;*/
+
+    background:lightgreen;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 40px;
+    border:3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display:inline-block;
+
+}
+
+.tabbutton:hover
+{
+    cursor:pointer;
+    background-color:grey;
+    color:white;
+   
+}
+.content
+{
+    width: 100%;
+    height: 100%;
+    padding:100px;
+    background-color: black;
+    color:wheat;
+    text-align: center;
+    border:5px solid green;
+    font-size:25px;
+    font-weight:bold;
+    display:none;
+    box-sizing: border-box;
+}
+
+.content:first-child
+{
+display: block;
+}
+
+
+.linkvertical
+{   
+    width:20%;
+    float: left;
+}
+
+.linkvertical button
+{
+    min-width:100%;
+}
+.contentvertical
+{
+    width:75%;
+    float: left;
+}
+
+.rp-tabs
+{   display:table;
+    content:"";
+    clear: both;
+}
+
+
+.active
+{
+    background-color: black;
+    color:white;
+    border:3px solid green;
+}
+.active:hover
+{
+    background-color: black;
+}
+
+.normal
+{
+    background-color: lightgreen;
+    color: black;
+}
+
+
+
+
